@@ -17,6 +17,9 @@ URL:		https://github.com/sergi/go-diff
 License:	ASL-2.0 and MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
+%if %{with check}
+BuildRequires:	golang(github.com/stretchr/testify/assert)
+%endif
 BuildArch:	noarch
 
 %description
