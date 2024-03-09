@@ -14,7 +14,7 @@ Name:		golang-github-sergi-go-diff
 Release:	1
 Source0:	https://github.com/sergi/go-diff/archive/v%{version}/go-diff-%{version}.tar.gz
 URL:		https://github.com/sergi/go-diff
-License:	ASL-2.0 and MIT
+License:	ASL 2.0 and MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
 %if %{with check}
