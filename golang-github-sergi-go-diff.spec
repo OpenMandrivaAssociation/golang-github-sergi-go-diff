@@ -4,7 +4,7 @@
 # https://github.com/sergi/go-diff
 %global goipath		github.com/sergi/go-diff
 %global forgeurl	https://github.com/sergi/go-diff
-Version:		1.3.1
+Version:		1.4.0
 
 %gometa
 
@@ -51,7 +51,7 @@ building other packages which use import path with
 #-----------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n go-diff-%{version}
+%autosetup -p1 -n go-diff-1.4.0
 
 %build
 %gobuildroot
